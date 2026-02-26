@@ -1,0 +1,119 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+design:
+  theme: engineeringresumes
+cv:
+  name: Kumkum Akter
+  location: Canada
+  email: kumkumakterjui30@gmail.com
+  
+
+  social_networks:
+    - network: LinkedIn
+      username: kumkum-a-772b7416b
+    - network: GitHub
+      username: jui-kumkum
+
+  sections:
+
+    summary:
+      - Software Developer with Master of Engineering in Electrical and Computer Engineering from University of Calgary. Specialized in backend development, full-stack web applications, and data-driven software solutions. Experienced in designing scalable REST APIs, database systems, and business automation workflows using Java Spring Boot, Laravel, and Python.
+
+    technical_skills:
+      - label: Programming Languages
+        details: Java, Python, PHP, C
+
+      - label: Backend Development
+        details: Spring Boot, Laravel, REST API Development, Microservices Basics, MVC Architecture
+
+      - label: Frontend Technologies
+        details: HTML5, CSS3, JavaScript, Responsive Web Design
+
+      - label: Databases
+        details: MySQL, Database Design, Query Optimization
+
+      - label: Data & Machine Learning
+        details: Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow
+
+      - label: Tools & DevOps
+        details: Git, GitHub, Postman, VS Code, IntelliJ IDEA, Anaconda, Docker Basics
+
+      - label: Concepts
+        details: OOP, Software Design Patterns, Agile Development, System Optimization
+
+    projects:
+      - name: "[Integrating Smart Traffic Management and Electric Energy Generation at an Intersection](https://github.com/jui-kumkum/ENEL-687-Graduate-Project)"
+        highlights:
+        - Designed and implemented a smart traffic management system to optimize traffic flow by dynamically adjusting green light durations based on real-time traffic density.
+        - Incorporated a pedestrian push-button feature to prioritize pedestrian safety by reducing green light duration.
+        - Developed an innovative energy-harvesting mechanism to generate DC voltage from moving vehicles using PIEZOELECTRIC SENSORS, which was utilized to power streetlights, promoting sustainability.
+        - Utilized C++ for programming and integrated hardware components such as the ARDUINO UNO R3, HC-SR04 Ultrasonic Sensor, Piezoelectric Sensor, and Wi-Fi module for seamless functionality.
+        - Leveraged ThingSpeak for real-time data visualization and monitoring, ensuring efficient system performance.
+        - Employed components like 1N4007 Diode, 47uF Capacitor, and 1k ohm Resistor to stabilize and regulate the energy generation process.
+
+      - name: "[Employee Management System](https://github.com/jui-kumkum/SpringBootPractice)"
+        highlights:
+          - Developed RESTful APIs for seamless frontend-backend communication, configured and optimized backend services forefficient data handling, and integrated web-based services to enhance functionality and user experience.
+          - Gained hands-on experience with Java frameworks, particularly Spring Boot, for building scalable applications.
+          - Designed relational database schema supporting efficient CRUD operations.
+          - Utilized MySQL for database management and Postman for API testing and debugging. 
+      - name: "[Heat Recovery System Optimization](https://colab.research.google.com/drive/16d60ddcsMYopO4nsFDCC1w3jWmatX1kj)"
+        highlights:
+          - Optimized cost and energy consumption by analyzing system efficiency and conducting comparative analysis through adjusted constraints and variables to identify optimal solutions.
+          - Implemented the solution using Python (Gurobi) and executed simulations on Google Colab for optimal results. 
+          - Defined decision variables, constraints, and objective functions to model the system effectively.
+         
+      - name: "[Purchase Requisition and Medicine Management System](https://github.com/jui-kumkum/pharmacyManagement)"
+        highlights:
+          - Designed and implemented a system to create, track, and execute purchase orders, enabled secure password storage and retrieval for enhanced data security. 
+          - Managed user accounts and data efficiently using MySQL, also automated total sales computation and generated graphical sales reports for insights.
+          - Built with PHP and JavaScript using Laravel framework, MySQL database, and additional technologies like HTML, CSS, Bootstrap, and Node.js.
+          - Designed responsive UI components improving usability and accessibility.
+
+      - name: "[Educational Quiz Platform](https://github.com/MohaiminShoron/Seng-696-gr2)"
+        highlights:
+          - Implemented user registration and authentication to ensure secure access and designed 4 quiz categories, allowing users to select topics of interest.
+          - Developed dynamic quiz timing and leaderboard ranking logic and optimized backend data flow for real-time scoring.
+          - Developed timed quizzes with multiple-choice questions to enhance user engagement and challenge. 
+          - Implemented session-based authentication and user role management.
+     
+    experience:
+      - company: Value Village Savers
+        position: Retail Operations Supervisor
+        location: Calgary, Alberta, Canada
+        highlights:
+          - Analyzed sales performance using Power BI dashboards and Catmax reports to identify revenue trends and optimize labour scheduling.
+          - Monitored product category performance using reporting systems and category-drive through.
+          - Supported strategic decision-making through business analytics insights.
+
+      - company: Aajhut.com
+        position: Web Application Developer Intern
+        location: Dhaka, Bangladesh
+        highlights:
+          - Developed backend features for e-commerce operations using Laravel.
+          - Implemented database CRUD operations and API integration.
+          - Built responsive frontend interfaces using modern web standards.
+
+      - company: Time Research and Innovation
+        position: Research Intern
+        location: Dhaka, Bangladesh
+        highlights:
+          - Conducted machine learning experiments using deep learning models.
+          - Supported research documentation and model validation tasks.
+
+    education:
+      - institution: University of Calgary
+        studyType: Master of Engineering
+        area: Electrical and Computer Engineering
+        location: Calgary, Canada
+
+      - institution: Southeast University
+        studyType: Bachelor of Science
+        area: Computer Science and Engineering
+        location: Dhaka, Bangladesh
+
+    certifications_and_awards:
+      - AWS Cloud Basics (Udemy)
+      - Java Spring Boot Real World Development - Udemy
+      - JavaScript, Bootstrap & PHP Development Certificate
+      - National Cyber Drill Participant - BGD e-GOV CIRT
+      - ICPC Programming Contest Participant
