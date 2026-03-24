@@ -55,6 +55,6 @@ You can download my resume here:
 
 ## Contact
 
-Email: your-email@example.com  
+Email: kumkumakterjui30@gmail.com  
 LinkedIn: https://linkedin.com/in/your-linkedin  
 GitHub: https://github.com/jui-kumkum
